@@ -34,15 +34,9 @@ const HeartIcon = ({
   );
 };
 
-export const Aple = () => {
+const Aple = () => {
   return (
     <div className="w-auto h-auto flex flex-col items-center justify-center">
-      <h1 className="flex max-w-5xl items-center text-lg font-medium w-full py-2 ">
-        Prompt....
-      </h1>
-      <h1 className="flex max-w-5xl items-center text-lg font-medium w-full py-2 ">
-        Prompt....
-      </h1>
       <div className="flex flex-wrap items-center justify-center mx-auto max-w-6xl gap-4 *:object-cover *:sm:w-1/2 *:md:w-1/3 *:lg:w-1/4 *:xl:w-1/5">
         <Image
           isBlurred
@@ -69,6 +63,9 @@ export const Aple = () => {
           src="https://images.pexels.com/photos/30988803/pexels-photo-30988803/free-photo-of-cozy-blue-sweater-with-yellow-tulips-bouquet.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
         />
       </div>
+      <h1 className="flex max-w-5xl items-center text-lg font-medium w-full py-2 ">
+        Prompt....
+      </h1>
     </div>
   );
 };
