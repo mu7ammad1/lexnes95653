@@ -1,6 +1,7 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
+
 import { createClient } from "@/utils/supabase/server";
 
 export async function login(formData: FormData) {
@@ -18,6 +19,7 @@ export async function login(formData: FormData) {
   }
 
   revalidatePath("/", "layout");
+
   return { success: true };
 }
 
@@ -36,5 +38,6 @@ export async function signup(formData: FormData) {
   }
 
   revalidatePath("/", "layout");
-  return { success: true }
-};
+
+  return { success: true };
+}
