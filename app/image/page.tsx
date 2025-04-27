@@ -37,13 +37,12 @@ const HeartIcon = ({
 export const Aple = () => {
   return (
     <div className="w-auto h-auto flex flex-col items-center justify-center">
-<<<<<<< HEAD
-      <h1 className="flex max-w-5xl items-center text-lg font-medium w-full py-2 ">Prompt....</h1>
-=======
       <h1 className="flex max-w-5xl items-center text-lg font-medium w-full py-2 ">
         Prompt....
       </h1>
->>>>>>> 8f9f769 (v1)
+      <h1 className="flex max-w-5xl items-center text-lg font-medium w-full py-2 ">
+        Prompt....
+      </h1>
       <div className="flex flex-wrap items-center justify-center mx-auto max-w-6xl gap-4 *:object-cover *:sm:w-1/2 *:md:w-1/3 *:lg:w-1/4 *:xl:w-1/5">
         <Image
           isBlurred
@@ -71,11 +70,7 @@ export const Aple = () => {
         />
       </div>
     </div>
-<<<<<<< HEAD
-  )
-=======
   );
->>>>>>> 8f9f769 (v1)
 };
 
 export default function GeneratePage() {
